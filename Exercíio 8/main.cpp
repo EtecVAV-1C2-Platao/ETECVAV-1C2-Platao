@@ -1,28 +1,37 @@
 #include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+int main() {
+    int num;
+    char r;
+    while(r == 's'){
+    
+    
+    	string dias[7] = {
+        "Domingo", 
+        "Segunda-Feira", 
+        "Terça-Feira", 
+        "Quarta-Feira", 
+        "Quinta-Feira", 
+        "Sexta-Feira", 
+        "Sábado"
+    	};
 
-int main(int argc, char** argv) {
-	char r = 's';
-	double area;
-	double valor;
-	while (r == 's' || r == 'S'){
-		double soma = 0.0; 
-	
-		std::cout<< "Escreva o raio de cinco circulos\n ";
-	
-		for (int i =0; i < 5; i++){
-			std::cout<<"Escrva o valor do raio: ";
-			std::cin>>valor;
-			area = 3.14 * valor * valor;
-			soma += area;
-		}
-		
-		std::cout<<"O valor da soma da area de cada circulo e: "<<soma << std::endl;
-	
-		 std::cout << "Deseja contiuar (S/N)?: ";
-		 std::cin >>r;
-		 
-	}
-	return 0;
+    	cout << "Digite um numero (1 a 7): ";
+    	cin >> num;
+
+    	if (num >= 1 && num <= 7) {
+        cout << "O dia da semana é: " << dias[num - 1] << endl;
+    	} else {
+        cout << "Número inválido. Digite de 1 a 7." << endl;
+    	}
+   	 	cout << "Deseja continuar (s/n)? :";
+    	cin >> r;
+    	system ("CLS")
+
+    
+}
+	return 0
 }
