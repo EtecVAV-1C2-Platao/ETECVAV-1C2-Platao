@@ -26,9 +26,9 @@ int main() {
         float resultado = pesoideal(genero, altura);
 
         if (resultado != -1) {
-            std::cout << "Seu peso ideal é " << resultado << " kg\n";
+            std::cout << "Seu peso ideal e " << resultado << " kg\n";
         } else {
-            std::cout << "Gênero inválido. Use 'm' para masculino ou 'f' para feminino.\n";
+            std::cout << "Genero inválido. Use 'm' para masculino ou 'f' para feminino.\n";
         }
 
         std::cout << "Deseja continuar? (s/n): ";
@@ -39,4 +39,5 @@ int main() {
 
     return 0;
 }
+
 
