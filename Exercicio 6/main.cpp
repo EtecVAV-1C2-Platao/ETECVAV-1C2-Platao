@@ -5,33 +5,33 @@ using namespace std;
 
 int main() {
     int num;
-    char r;
-    while(r == 's'){
-    
-    
-    	string dias[7] = {
-        "Domingo", 
-        "Segunda-Feira", 
-        "Terça-Feira", 
-        "Quarta-Feira", 
-        "Quinta-Feira", 
-        "Sexta-Feira", 
-        "Sábado"
-    	};
+    char r = 's';
 
-    	cout << "Digite um numero (1 a 7): ";
-    	cin >> num;
+    while (r == 's' || r == 'S') {
+        string dias[7] = {
+            "Domingo", 
+            "Segunda-Feira", 
+            "TerÃ§a-Feira", 
+            "Quarta-Feira", 
+            "Quinta-Feira", 
+            "Sexta-Feira", 
+            "SÃ¡bado"
+        };
 
-    	if (num >= 1 && num <= 7) {
-        cout << "O dia da semana é: " << dias[num - 1] << endl;
-    	} else {
-        cout << "Número inválido. Digite de 1 a 7." << endl;
-    	}
-   	 	cout << "Deseja continuar (s/n)? :";
-    	cin >> r;
-    	system ("CLS")
+        cout << "Digite um numero (1 a 7): ";
+        cin >> num;
 
-    
-}
-	return 0
+        if (num >= 1 && num <= 7) {
+            cout << "O dia da semana Ã©: " << dias[num - 1] << endl;
+        } else {
+            cout << "NÃºmero invÃ¡lido. Digite de 1 a 7." << endl;
+        }
+
+        cout << "Deseja continuar (s/n)? ";
+        cin >> r;
+
+        system("CLS");
+    }
+
+    return 0;
 }
