@@ -112,15 +112,15 @@ perguntas = [
                 "correta": "A"
             },
             {
-                "questao": "Qual componente é usado para armazenar carga elétrica?",
-                "alternativas": [
-                    "A) Resistor",
-                    "B) Diodo",
-                    "C) Capacitor",
-                    "D) Transistor",
-                    "E) Indutor"
-                ],
-                "correta": "C"
+               # "questao": "Qual componente é usado para armazenar carga elétrica?",
+                #"alternativas": [
+                 #   "A) Resistor",
+                 #   "B) Diodo",
+                 #   "C) Capacitor",
+                 #   "D) Transistor",
+                  #  "E) Indutor"
+               # ],
+                #"correta": "C"
             },
             {
                 "questao": "Quantos pinos digitais possui o Arduino Uno?",
@@ -222,26 +222,26 @@ perguntas = [
                 "correta": "D"
             },
             {
-                "questao": "Qual destes componentes converte energia elétrica em luz?",
-                "alternativas": [
-                    "A) LDR",
-                    "B) LED",
-                    "C) Potenciômetro",
-                    "D) Servo motor",
-                    "E) Buzzer"
-                ],
-                "correta": "B"
+                #"questao": "Qual destes componentes converte energia elétrica em luz?",
+                #"alternativas": [
+                #    "A) LDR",
+                 #   "B) LED",
+                  #  "C) Potenciômetro",
+                   # "D) Servo motor",
+                    #"E) Buzzer"
+                #],
+                #"correta": "B"
             },
             {
-                "questao": "Qual é a função do resistor?",
-                "alternativas": [
-                    "A) Armazenar energia",
-                    "B) Controlar a corrente elétrica",
-                    "C) Converter energia em calor",
-                    "D) Aumentar a tensão",
-                    "E) Medir a resistência"
-                ],
-                "correta": "B"
+               # "questao": "Qual é a função do resistor?",
+                #"alternativas": [
+                 #   "A) Armazenar energia",
+                  #  "B) Controlar a corrente elétrica",
+                   # "C) Converter energia em calor",
+                    #"D) Aumentar a tensão",
+                    #"E) Medir a resistência"
+                #],
+                #"correta": "B"
             },
             {
                 "questao": "O que o comando 'setup()' faz em um programa Arduino?",
@@ -277,15 +277,15 @@ perguntas = [
                 "correta": "A"
             },
             {
-                "questao": "Qual sensor é usado para medir distância?",
-                "alternativas": [
-                    "A) DHT11",
-                    "B) HC-SR04",
-                    "C) LDR",
-                    "D) BMP280",
-                    "E) MQ-135"
-                ],
-                "correta": "B"
+         #       "questao": "Qual sensor é usado para medir distância?",
+          #      "alternativas": [
+           #         "A) DHT11",
+            #        "B) HC-SR04",
+             #       "C) LDR",
+              #      "D) BMP280",
+               #     "E) MQ-135"
+                #],
+                #"correta": "B"
             },
             {
                 "questao": "Qual protocolo é usado para comunicação sem fio com o módulo ESP8266?",
@@ -486,15 +486,15 @@ perguntas = [
                 "correta": "C"
             },
             {
-                "questao": "Qual biblioteca é necessária para usar comunicação I2C?",
-                "alternativas": [
-                    "A) SPI.h",
-                    "B) Servo.h",
-                    "C) Wire.h",
-                    "D) WiFi.h",
-                    "E) Serial.h"
-                ],
-                "correta": "C"
+             #   "questao": "Qual biblioteca é necessária para usar comunicação I2C?",
+             #   "alternativas": [
+              #      "A) SPI.h",
+               #     "B) Servo.h",
+                #    "C) Wire.h",
+                 #   "D) WiFi.h",
+                  #  "E) Serial.h"
+               # ],
+                #"correta": "C"
             },
             {
                 "questao": "Qual função inicializa a comunicação I2C?",
@@ -508,26 +508,26 @@ perguntas = [
                 "correta": "A"
             },
             {
-                "questao": "Qual dispositivo é um exemplo de atuador?",
-                "alternativas": [
-                    "A) Sensor de temperatura",
-                    "B) Sensor de luz LDR",
-                    "C) Servo motor",
-                    "D) Sensor ultrassônico",
-                    "E) Módulo Wi-Fi"
-                ],
-                "correta": "C"
+           #     "questao": "Qual dispositivo é um exemplo de atuador?",
+          #      "alternativas": [
+           #         "A) Sensor de temperatura",
+            #        "B) Sensor de luz LDR",
+             #       "C) Servo motor",
+              #      "D) Sensor ultrassônico",
+               #     "E) Módulo Wi-Fi"
+                #],
+                #"correta": "C"
             },
             {
-                "questao": "Qual é a função de um shield Ethernet?",
-                "alternativas": [
-                    "A) Controlar motores",
-                    "B) Conectar o Arduino à internet por cabo",
-                    "C) Medir temperatura ambiente",
-                    "D) Armazenar dados em cartão SD",
-                    "E) Aumentar a potência elétrica da placa"
-                ],
-                "correta": "B"
+            #    "questao": "Qual é a função de um shield Ethernet?",
+            #    "alternativas": [
+             #       "A) Controlar motores",
+              #      "B) Conectar o Arduino à internet por cabo",
+               #     "C) Medir temperatura ambiente",
+                #    "D) Armazenar dados em cartão SD",
+                 #   "E) Aumentar a potência elétrica da placa"
+               # ],
+                #"correta": "B"
             },
             {
                 "questao": "Qual destes modos de comunicação permite conectar o Arduino ao computador?",
