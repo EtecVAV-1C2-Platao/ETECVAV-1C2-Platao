@@ -186,15 +186,15 @@ perguntas = [
                 "correta": "B  ✔"
             },
             {
-          #      "questao": "Qual destes sensores mede temperatura?",
-           #     "alternativas": [
-            #        "A) LDR",
-             #       "B) DHT11",
-              #      "C) HC-SR04",
-               #     "D) MPU6050",
-                #    "E) MQ-2"
-               # ],
-               # "correta": "B  ✔"
+                "questao": "Qual destes sensores mede temperatura?",
+                "alternativas": [
+                    "A) LDR",
+                    "B) DHT11",
+                    "C) HC-SR04",
+                    "D) MPU6050",
+                    "E) MQ-2"
+                ],
+                "correta": "B  ✔"
             },
             {
                 "questao": "Qual comando é usado para ler o valor de um sensor analógico?",
@@ -230,15 +230,15 @@ perguntas = [
                 "correta": "C"
             },
             {
-               # "questao": "Qual é a função do resistor?",
-                #"alternativas": [
-                 #   "A) Armazenar energia",
-                  #  "B) Controlar a corrente elétrica",
-                   # "C) Converter energia em calor",
-                    #"D) Aumentar a tensão",
-                    #"E) Medir a resistência"
-                #],
-                #"correta": "B"
+                "questao": "Qual é a função do resistor?",
+                "alternativas": [
+                    "A) Armazenar energia",
+                    "B) Controlar a corrente elétrica",
+                    "C) Converter energia em calor",
+                    "D) Aumentar a tensão",
+                    "E) Medir a resistência"
+                ],
+                "correta": "B"
             },
             {
                 "questao": "O que o comando 'setup()' faz em um programa Arduino?",
@@ -516,26 +516,26 @@ perguntas = [
                 "correta": "A  ✔"
             },
             {
-           #     "questao": "Qual dispositivo é um exemplo de atuador?",
-          #      "alternativas": [
-           #         "A) Sensor de temperatura",
-            #        "B) Sensor de luz LDR",
-             #       "C) Servo motor",
-              #      "D) Sensor ultrassônico",
-               #     "E) Módulo Wi-Fi"
-                #],
-                #"correta": "C"
+                "questao": "Qual dispositivo é um exemplo de atuador?",
+                "alternativas": [
+                    "A) Sensor de temperatura",
+                    "B) Sensor de luz LDR",
+                    "C) Servo motor",
+                    "D) Sensor ultrassônico",
+                    "E) Módulo Wi-Fi"
+                ],
+                "correta": "C"
             },
             {
-            #    "questao": "Qual é a função de um shield Ethernet?",
-            #    "alternativas": [
-             #       "A) Controlar motores",
-              #      "B) Conectar o Arduino à internet por cabo",
-               #     "C) Medir temperatura ambiente",
-                #    "D) Armazenar dados em cartão SD",
-                 #   "E) Aumentar a potência elétrica da placa"
-               # ],
-                #"correta": "B"
+                "questao": "Qual é a função de um shield Ethernet?",
+                "alternativas": [
+                    "A) Controlar motores",
+                    "B) Conectar o Arduino à internet por cabo",
+                    "C) Medir temperatura ambiente",
+                    "D) Armazenar dados em cartão SD",
+                    "E) Aumentar a potência elétrica da placa"
+                ],
+                "correta": "B"
             },
             {
                 "questao": "Qual destes modos de comunicação permite conectar o Arduino ao computador?",
@@ -560,15 +560,16 @@ perguntas = [
                 "correta": "C  ✔"
             },
             {
-             #   "questao": "Qual é o risco de conectar sensores de 5V em placas de 3.3V sem adaptação?",
-              #  "alternativas": [
-              #      "A) A leitura ficará imprecisa",
-               #     "B) O sensor pode funcionar em baixa tensão",
-                #    "C) Pode danificar a placa controladora",
-                 #   "D) Nenhum, é compatível automaticamente",
-                  #  "E) O sensor não enviará dados"
-              #  ],
-               # "correta": "C  ✔"
+             "questao": "O Arduino Nano não possui qual tipo comum de alimentação?",
+             "alternativas": [
+             
+                    "A) VIN",
+                    "B) Micro USB",
+                    "C) USB-C",
+                    "D) Jack DC",
+                    "E) 5V",
+                ],
+                "correta": "D  ✔"
             },
             {
                 "questao": "Um exemplo comum de aplicação prática do Arduino é:",
