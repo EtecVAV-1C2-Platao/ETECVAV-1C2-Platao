@@ -6,7 +6,7 @@ def Mostrar_Regras():
     print("2. Cada questão é de múltipla escolha, tendo apenas uma correta (A-E).")
     print("3. Cada questão vale 0,5 pontos.")
     print("4. A nota máxima é 10,0 pontos.")
-    print("5. não é permitido consultar material externo durante o quiz.")
+    print("5. É proibido consultar material externo durante o quiz.")
    
 
 def Mostrar_Informacoes():
@@ -640,6 +640,7 @@ while True:
     else:
 
         print("Opção inválida. Tente novamente.")
+
 
 
 
