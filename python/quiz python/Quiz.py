@@ -621,6 +621,7 @@ perguntas = [
             }
         ]
       
+#interface melhorada para o quiz com titulo e as opções
 while True:
     print("=============================")
     print("||        QUIZ ARDUINO     ||")
@@ -632,12 +633,15 @@ while True:
     print("=============================")
 
     opcao = input("Selecione uma opção: ")
-    #interface melhorada para o quiz com titulo e as opções
+    
+   
     if opcao == "1":
         print("\nIniciando Quiz...")
         perguntas_sorteadas = Sortear_perguntas(perguntas, 20)
         pontuacao = 0
         
+        
+        #indica a pontuação a quatidade de pergunta e quanto vale cada
         for i, pergunta in enumerate(perguntas_sorteadas, 1):
             print(f"\n--- Pergunta {i}/20 ---")
             Exibir_pergunta(pergunta)
@@ -647,7 +651,9 @@ while True:
         
         print(f"\n=== FIM DO QUIZ ===")
         print(f"Sua pontuação final: {pontuacao}/10.0")
-        #indica a pontuação a quatidade de pergunta e quanto vale cada
+        
+      
+        #as opções e caso ocorra resposta invalidas , o encerramento do programa
         R = input("Deseja continuar (S/N)?: ").upper()
         if R != "S":
             break
@@ -665,15 +671,3 @@ while True:
     else:
 
         print("Opção inválida. Tente novamente.")
-#as opções e caso ocorra resposta invalidas , o encerramento do programa
-
-
-
-
-
-
-
-
-
-
-
