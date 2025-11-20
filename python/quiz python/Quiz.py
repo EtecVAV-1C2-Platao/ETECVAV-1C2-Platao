@@ -1,45 +1,48 @@
 import random #pelo o que eu entendi, isso serve para sortear as paradas, não sei se vamos ou não usar isso
 
 def Mostrar_Regras():
-    print("============================================================================")
-    print("||           REGRAS                                                       ||")
-    print("||========================================================================||")
-    print("||1. O quiz será composto por perguntas de múltipla escolha sobre Arduino.||")
-    print("||2. Cada questão é de múltipla escolha, tendo apenas uma correta (A-E).  ||")
-    print("||3. Cada questão vale 0,5 pontos.                                        ||")
-    print("||4. A nota máxima é 10,0 pontos.                                         ||")
-    print("||5. É proibido consultar material externo durante o quiz.                ||")
-    print("============================================================================")
+    print("============================================================================"),
+    print("||           REGRAS                                                       ||"),
+    print("||========================================================================||"),
+    print("||1. O quiz será composto por perguntas de múltipla escolha sobre Arduino.||"),
+    print("||2. Cada questão é de múltipla escolha, tendo apenas uma correta (A-E).  ||"),
+    print("||3. Cada questão vale 0,5 pontos.                                        ||"),
+    print("||4. A nota máxima é 10,0 pontos.                                         ||"),
+    print("||5. É proibido consultar material externo durante o quiz.                ||"),
+    print("============================================================================"),
    
 
 def Mostrar_Informacoes():
-    print("=====================================================================================")
-    print("||           INFORMAÇÕES                                                           ||")
-    print("||=================================================================================||")
-    print("||Este é um Quiz com o tema centrado no Arduino, abrangendo os seguintes tópicos:  ||")
-    print("|| 1. Histórico e origem do projeto                                                ||")
-    print("|| 2. Modelos e famílias de placas (Uno, Mega, Nano, etc.)                         ||")
-    print("|| 3. Componentes e arquitetura básica                                             ||")
-    print("|| 4. Conexões, portas e sinais (digitais, analógicos, PWM)                        ||")
-    print("|| 5. Estrutura de código (setup, loop, funções, bibliotecas)                      ||")
-    print("|| 6. Principais comandos e funções da IDE Arduino                                 ||")
-    print("|| 7. Sensores, atuadores e shields                                                ||")
-    print("|| 8. Comunicações: Serial, I2C, SPI, Bluetooth, Wi-Fi                             ||")
-    print("|| 9. Boas práticas e segurança elétrica                                           ||")
-    print("|| 10. Casos de uso e aplicações práticas                                          ||")
-    print("=====================================================================================") 
+    print("====================================================================================="),
+    print("||           INFORMAÇÕES                                                           ||"),
+    print("||=================================================================================||"),
+    print("||Este é um Quiz com o tema centrado no Arduino, abrangendo os seguintes tópicos:  ||"),
+    print("|| 1. Histórico e origem do projeto                                                ||"),
+    print("|| 2. Modelos e famílias de placas (Uno, Mega, Nano, etc.)                         ||"),
+    print("|| 3. Componentes e arquitetura básica                                             ||"),
+    print("|| 4. Conexões, portas e sinais (digitais, analógicos, PWM)                        ||"),
+    print("|| 5. Estrutura de código (setup, loop, funções, bibliotecas)                      ||"),
+    print("|| 6. Principais comandos e funções da IDE Arduino                                 ||"),
+    print("|| 7. Sensores, atuadores e shields                                                ||"),
+    print("|| 8. Comunicações: Serial, I2C, SPI, Bluetooth, Wi-Fi                             ||"),
+    print("|| 9. Boas práticas e segurança elétrica                                           ||"),
+    print("|| 10. Casos de uso e aplicações práticas                                          ||"),
+    print("====================================================================================="),
 # Meio que isso é o texto das informações do jogo e o de cima é sobre as regras, eu não sei se tenho \n
 # que colocar as mesmas regras que o Ronildo postou no Teams, ou se tenho que rescrever elas. \n
 # Me avisem se solberem da resposta
 
+
+# Mostra as informações do quiz
+
 def Sortear_perguntas(perguntas, quantidade=20):
     return random.sample(perguntas, quantidade)
-
+#sortea as pergunta , as retorna na quatidade definida 
 def Exibir_pergunta(pergunta):
     print("\n" + pergunta["questao"])
     for alternativa in pergunta["alternativas"]:
         print(alternativa)
-
+#exibe as perguntas e alternativas
 def Verificar_Resposta(pergunta, resposta):
     if resposta == pergunta["correta"]:
         print("✅ Acertouuu!\n")
@@ -47,6 +50,7 @@ def Verificar_Resposta(pergunta, resposta):
     else:
         print(f"❌ Errouuu! A resposta correta era: {pergunta['correta']}\n")
         return False
+        #exibe uma menssagem caso as resposta esteja errada ou correta
 perguntas = [
             {
                 "questao": "Quem foi o principal inventor do Arduino?",
@@ -625,7 +629,7 @@ while True:
     print("=============================")
 
     opcao = input("Selecione uma opção: ")
-    
+    #interface melhorada para o quiz com titulo e as opções
     if opcao == "1":
         print("\nIniciando Quiz...")
         perguntas_sorteadas = Sortear_perguntas(perguntas, 20)
@@ -640,7 +644,7 @@ while True:
         
         print(f"\n=== FIM DO QUIZ ===")
         print(f"Sua pontuação final: {pontuacao}/10.0")
-        
+        #indica a pontuação a quatidade de pergunta e quanto vale cada
         R = input("Deseja continuar (S/N)?: ").upper()
         if R != "S":
             break
@@ -658,6 +662,8 @@ while True:
     else:
 
         print("Opção inválida. Tente novamente.")
+#as opções e caso ocorra resposta invalidas , o encerramento do programa
+
 
 
 
