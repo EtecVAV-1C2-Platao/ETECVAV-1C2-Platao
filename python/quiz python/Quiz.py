@@ -22,10 +22,7 @@ def Mostrar_Informacoes():
     8. Comunicações: Serial, I2C, SPI, Bluetooth, Wi-Fi
     9. Boas práticas e segurança elétrica
     10. Casos de uso e aplicações práticas\n""") 
-# Meio que isso é o texto das informações do jogo e o de cima é sobre as regras, eu não sei se tenho \n
-# que colocar as mesmas regras que o Ronildo postou no Teams, ou se tenho que rescrever elas. \n
-# Me avisem se solberem da resposta
-
+# Mostra as informações do quiz
 def Sortear_perguntas(perguntas, quantidade=20):
     return random.sample(perguntas, quantidade)
 #sortea as pergunta , as retorna na quatidade definida 
@@ -654,6 +651,7 @@ while True:
 
         print("Opção inválida. Tente novamente.")
 #as opções e caso ocorra resposta invalidas , o encerramento do programa
+
 
 
 
