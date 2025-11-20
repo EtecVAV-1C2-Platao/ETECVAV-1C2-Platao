@@ -6,7 +6,7 @@ def Mostrar_Regras():
     print("2. Cada questão é de múltipla escolha, tendo apenas uma correta (A-E).")
     print("3. Cada questão vale 0,5 pontos.")
     print("4. A nota máxima é 10,0 pontos.")
-    print("5. não é permitido consultar outros grupos.")
+    print("5. não é permitido consultar material externo durante o quiz.")
    
 
 def Mostrar_Informacoes():
@@ -186,13 +186,13 @@ perguntas = [
                 "correta": "B  ✔"
             },
             {
-                "questao": "Qual destes sensores mede temperatura?",
-                "alternativas": [
-                    "A) LDR",
-                    "B) DHT11",
-                    "C) HC-SR04",
-                    "D) MPU6050",
-                    "E) MQ-2"
+                #"questao": "Qual destes sensores mede temperatura?",
+                #"alternativas": [
+                    #"A) LDR",
+                    #"B) DHT11",
+                    #"C) HC-SR04",
+                    #"D) MPU6050",
+                    #"E) MQ-2"
                 ],
                 "correta": "B  ✔"
             },
@@ -274,15 +274,15 @@ perguntas = [
                 "correta": "A  ✔"
             },
             {
-         #       "questao": "Qual sensor é usado para medir distância?",
-          #      "alternativas": [
-           #         "A) DHT11",
-            #        "B) HC-SR04",
-             #       "C) LDR",
-              #      "D) BMP280",
-               #     "E) MQ-135"
-                #],
-                #"correta": "B  ✔"
+                "questao": "Qual sensor é usado para medir distância?",
+                "alternativas": [
+                    "A) DHT11",
+                    "B) HC-SR04",
+                    "C) LDR",
+                    "D) BMP280",
+                    "E) MQ-135"
+                ],
+                "correta": "B  ✔"
             },
             {
                 "questao": "Qual protocolo é usado para comunicação sem fio com o módulo ESP8266?",
@@ -640,5 +640,6 @@ while True:
     else:
 
         print("Opção inválida. Tente novamente.")
+
 
 
