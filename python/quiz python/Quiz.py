@@ -653,7 +653,7 @@ while True:
         print(f"Sua pontuação final: {pontuacao}/10.0")
         
       
-        #as opções e caso ocorra resposta invalidas , o encerramento do programa
+        #as opções e caso ocorra resposta invalidas, o encerramento do programa e se desseja continuar
         R = input("Deseja continuar (S/N)?: ").upper()
         if R != "S":
             break
@@ -671,3 +671,4 @@ while True:
     else:
 
         print("Opção inválida. Tente novamente.")
+
