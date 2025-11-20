@@ -7,7 +7,7 @@ def Mostrar_Regras():
     print("3. Cada questão vale 0,5 pontos.")
     print("4. A nota máxima é 10,0 pontos.")
     print("5. É proibido consultar material externo durante o quiz.")
-   
+   #baicamente exibe as regras a partir da opcão 3 "Regras"
 
 def Mostrar_Informacoes():
     print("\n Informações do Quiz")
@@ -28,12 +28,12 @@ def Mostrar_Informacoes():
 
 def Sortear_perguntas(perguntas, quantidade=20):
     return random.sample(perguntas, quantidade)
-
+#sortea as pergunta , as retorna na quatidade definida 
 def Exibir_pergunta(pergunta):
     print("\n" + pergunta["questao"])
     for alternativa in pergunta["alternativas"]:
         print(alternativa)
-
+#exibe as perguntas e alternativas
 def Verificar_Resposta(pergunta, resposta):
     if resposta == pergunta["correta"]:
         print("✅ Acertouuu!\n")
@@ -41,6 +41,7 @@ def Verificar_Resposta(pergunta, resposta):
     else:
         print(f"❌ Errouuu! A resposta correta era: {pergunta['correta']}\n")
         return False
+        #exibe uma menssagem caso as resposta esteja errada ou correta
 perguntas = [
             {
                 "questao": "Quem foi o principal inventor do Arduino?",
@@ -619,7 +620,7 @@ while True:
     print("==============================")
 
     opcao = input("Selecione uma opção: ")
-    
+    #interface melhorada para o quiz com titulo e as opções
     if opcao == "1":
         print("\nIniciando Quiz...")
         perguntas_sorteadas = Sortear_perguntas(perguntas, 20)
@@ -634,7 +635,7 @@ while True:
         
         print(f"\n=== FIM DO QUIZ ===")
         print(f"Sua pontuação final: {pontuacao}/10.0")
-        
+        #indica a pontuação a quatidade de pergunta e quanto vale cada
         R = input("Deseja continuar (S/N)?: ").upper()
         if R != "S":
             break
@@ -652,6 +653,7 @@ while True:
     else:
 
         print("Opção inválida. Tente novamente.")
+#as opções e caso ocorra resposta invalidas , o encerramento do programa
 
 
 
