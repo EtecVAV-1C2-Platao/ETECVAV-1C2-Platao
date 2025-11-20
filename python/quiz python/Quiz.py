@@ -112,15 +112,15 @@ perguntas = [
                 "correta": "A  ✔"
             },
             {
-               # "questao": "Qual componente é usado para armazenar carga elétrica?",
-                #"alternativas": [
-                 #   "A) Resistor",
-                 #   "B) Diodo",
-                 #   "C) Capacitor",
-                 #   "D) Transistor",
-                  #  "E) Indutor"
-               # ],
-                #"correta": "C"
+               "questao": "Quantos pinos digitais o Arduino Mega possui?",
+               "alternativas": [
+                    "A) 54",
+                    "B) 20",
+                    "C) 32",
+                    "D) 14",
+                    "E) 40",
+               ],
+                "correta": "A  ✔"
             },
             {
                 "questao": "Quantos pinos digitais possui o Arduino Uno?",
@@ -222,15 +222,15 @@ perguntas = [
                 "correta": "D  ✔"
             },
             {
-                #"questao": "Qual destes componentes converte energia elétrica em luz?",
-                #"alternativas": [
-                #    "A) LDR",
-                 #   "B) LED",
-                  #  "C) Potenciômetro",
-                   # "D) Servo motor",
-                    #"E) Buzzer"
-                #],
-                #"correta": "B"
+                "questao": "O pino VIN do Arduino Uno serve para: ",
+                "alternativas": [
+                    "A) Comunicação SPI",
+                    "B) Reset externo",
+                    "C) Alimentar com 7–12V",
+                    "D) Ajuste de clock",
+                    "E) Programação ICSP",
+                 ],
+                "correta": "C"
             },
             {
                # "questao": "Qual é a função do resistor?",
@@ -277,15 +277,15 @@ perguntas = [
                 "correta": "A  ✔"
             },
             {
-         #       "questao": "Qual sensor é usado para medir distância?",
-          #      "alternativas": [
-           #         "A) DHT11",
-            #        "B) HC-SR04",
-             #       "C) LDR",
-              #      "D) BMP280",
-               #     "E) MQ-135"
-                #],
-                #"correta": "B  ✔"
+                "questao":"O Arduino Pro Mini é programado através de?",
+                "alternativas": [
+                    "A) Cabo USB-B",
+                    "B) Cabo USB-C",
+                    "C) Porta ICSP",
+                    "D) Conversor USB-Serial externo",
+                    "E) Bluetooth nativo"
+                ],
+                "correta": "D  ✔"
             },
             {
                 "questao": "Qual protocolo é usado para comunicação sem fio com o módulo ESP8266?",
@@ -470,7 +470,7 @@ perguntas = [
                     "B) setup()",
                     "C) start()",
                     "D) begin()",
-                    "E) main()"
+                    "E) main()",
                 ],
                 "correta": "B  ✔"
             },
@@ -481,7 +481,7 @@ perguntas = [
                     "B) Definir um pino como saída",
                     "C) Ler se um pino digital está em nível alto ou baixo",
                     "D) Enviar dados pela porta serial",
-                    "E) Ligar o LED interno"
+                    "E) Ligar o LED interno",
                 ],
                 "correta": "C  ✔"
             },
