@@ -54,7 +54,7 @@ perguntas = [
                     "D) Massimo Banzi", 
                     "E) David Mellis"
                 ],
-                "correta": "D"
+                "correta": "D  ✔"
             },
             {
                 "questao": "Qual função é usada para configurar pinos no Arduino?",
@@ -65,7 +65,7 @@ perguntas = [
                     "D) setup()", 
                     "E) loop()"
                 ],
-                "correta": "A"
+                "correta": "A  ✔"
             },
             {
                 "questao": "Em que ano a plataforma do Arduino foi iniciada?",
@@ -76,7 +76,7 @@ perguntas = [
                     "D) 2010", 
                     "E) 2005"
                 ],
-                "correta": "E"
+                "correta": "E  ✔"
             },
             {
                 "questao": "O que é o Arduino?",
@@ -87,7 +87,7 @@ perguntas = [
                     "D) Um conjunto de ferramentas destinado à simulação de circuitos elétricos em ambiente virtual.",
                     "E) Um microcontrolador utilizado para o controle e automação de dispositivos eletrônicos."
                 ],
-                "correta": "A"
+                "correta": "A  ✔"
             },
             {
                 "questao": "O que significa IDE no contexto do Arduino?",
@@ -98,7 +98,7 @@ perguntas = [
                     "D) Intelligent Digital Editor", 
                     "E) Internet Device Emulator"
                 ],
-                "correta": "A"
+                "correta": "A  ✔"
             },
             {
                 "questao": "Qual extensão de arquivo é usada nos projetos do Arduino?",
@@ -109,7 +109,7 @@ perguntas = [
                     "D) .py", 
                     "E) .txt"
                 ],
-                "correta": "A"
+                "correta": "A  ✔"
             },
             {
                # "questao": "Qual componente é usado para armazenar carga elétrica?",
@@ -131,7 +131,7 @@ perguntas = [
                     "D) 14",
                     "E) 16"
                 ],
-                "correta": "D"
+                "correta": "D  ✔"
             },
             {
                 "questao": "Qual é o microcontrolador usado no Arduino Uno?",
@@ -142,7 +142,7 @@ perguntas = [
                     "D) ATmega2560",
                     "E) PIC16F877A"
                 ],
-                "correta": "C"
+                "correta": "C  ✔"
             },
             {
                 "questao": "Qual pino do Arduino é usado para enviar dados via comunicação serial?",
@@ -153,7 +153,7 @@ perguntas = [
                     "D) 13",
                     "E) A0"
                 ],
-                "correta": "B"
+                "correta": "B  ✔"
             },
             {
                 "questao": "Qual comando é usado para imprimir informações no monitor serial?",
@@ -164,7 +164,7 @@ perguntas = [
                     "D) Serial.read()",
                     "E) Serial.write()"
                 ],
-                "correta": "B"
+                "correta": "B  ✔"
             },
             {
                 "questao": "Qual a voltagem operacional do Arduino Uno?",
@@ -175,7 +175,7 @@ perguntas = [
                     "D) 12V",
                     "E) 7.5V"
                 ],
-                "correta": "B"
+                "correta": "B  ✔"
             },
             {
                 "questao": "O que faz a função delay(1000) no código do Arduino?",
@@ -186,7 +186,7 @@ perguntas = [
                     "D) Cria uma pausa indefinida",
                     "E) Interrompe a alimentação"
                 ],
-                "correta": "B"
+                "correta": "B  ✔"
             },
             {
                 "questao": "Qual destes sensores mede temperatura?",
@@ -197,7 +197,7 @@ perguntas = [
                     "D) MPU6050",
                     "E) MQ-2"
                 ],
-                "correta": "B"
+                "correta": "B  ✔"
             },
             {
                 "questao": "Qual comando é usado para ler o valor de um sensor analógico?",
@@ -208,7 +208,7 @@ perguntas = [
                     "D) digitalWrite()",
                     "E) sensorRead()"
                 ],
-                "correta": "A"
+                "correta": "A  ✔"
             },
             {
                 "questao": "Qual tipo de variável pode armazenar valores como 'a', 'b', 'c'?",
@@ -219,7 +219,7 @@ perguntas = [
                     "D) char",
                     "E) string"
                 ],
-                "correta": "D"
+                "correta": "D  ✔"
             },
             {
                 #"questao": "Qual destes componentes converte energia elétrica em luz?",
@@ -252,7 +252,7 @@ perguntas = [
                     "D) Reinicia o microcontrolador",
                     "E) Lê entradas digitais"
                 ],
-                "correta": "B"
+                "correta": "B  ✔"
             },
             {
                 "questao": "O que o comando 'loop()' faz em um programa Arduino?",
@@ -263,7 +263,7 @@ perguntas = [
                     "D) Configura pinos digitais",
                     "E) Envia dados para o serial"
                 ],
-                "correta": "C"
+                "correta": "C  ✔"
             },
             {
                 "questao": "Qual comando é usado para acender um LED?",
@@ -274,7 +274,7 @@ perguntas = [
                     "D) pinMode(pino, INPUT)",
                     "E) delay(1000)"
                 ],
-                "correta": "A"
+                "correta": "A  ✔"
             },
             {
          #       "questao": "Qual sensor é usado para medir distância?",
@@ -285,7 +285,7 @@ perguntas = [
               #      "D) BMP280",
                #     "E) MQ-135"
                 #],
-                #"correta": "B"
+                #"correta": "B  ✔"
             },
             {
                 "questao": "Qual protocolo é usado para comunicação sem fio com o módulo ESP8266?",
@@ -296,7 +296,7 @@ perguntas = [
                     "D) Wi-Fi",
                     "E) Bluetooth"
                 ],
-                "correta": "D"
+                "correta": "D  ✔"
             },
             {
                 "questao": "Qual componente é usado para controlar motores de forma precisa?",
@@ -307,7 +307,7 @@ perguntas = [
                     "D) Resistor",
                     "E) Buzzer"
                 ],
-                "correta": "B"
+                "correta": "B  ✔"
             },
             {
                 "questao": "Qual biblioteca é usada para controlar servos no Arduino?",
@@ -318,7 +318,7 @@ perguntas = [
                     "D) Motor.h",
                     "E) PWM.h"
                 ],
-                "correta": "B"
+                "correta": "B  ✔"
             },
             {
                 "questao": "O que significa PWM no Arduino?",
@@ -329,7 +329,7 @@ perguntas = [
                     "D) Peripheral Write Method",
                     "E) Power Wave Management"
                 ],
-                "correta": "B"
+                "correta": "B  ✔"
             },
             {
                 "questao": "Qual comando inicializa a comunicação serial no Arduino?",
@@ -340,7 +340,7 @@ perguntas = [
                     "D) Serial.read(9600)",
                     "E) Serial.connect(9600)"
                 ],
-                "correta": "A"
+                "correta": "A  ✔"
             },
             {
                 "questao": "Qual comando é usado para definir um pino como saída?",
@@ -351,7 +351,7 @@ perguntas = [
                     "D) analogRead(pino)",
                     "E) setup(pino)"
                 ],
-                "correta": "A"
+                "correta": "A  ✔"
             },
             {
                 "questao": "O que a função 'analogWrite()' faz?",
@@ -362,7 +362,7 @@ perguntas = [
                     "D) Envia dados para o serial",
                     "E) Reinicia o programa"
                 ],
-                "correta": "B"
+                "correta": "B  ✔"
             },
             {
                 "questao": "Qual pino é geralmente usado para o LED embutido no Arduino Uno?",
@@ -373,7 +373,7 @@ perguntas = [
                     "D) 13",
                     "E) A0"
                 ],
-                "correta": "D"
+                "correta": "D  ✔"
             },
             {
                 "questao": "Em que país o projeto Arduino foi criado?",
@@ -384,7 +384,7 @@ perguntas = [
                     "D) Japão",
                     "E) França"
                 ],
-                "correta": "B"
+                "correta": "B  ✔"
             },
             {
                 "questao": "O nome 'Arduino' foi inspirado em:",
@@ -395,7 +395,7 @@ perguntas = [
                     "D) O nome do primeiro computador usado no projeto",
                     "E) O sobrenome de um dos fundadores"
                 ],
-                "correta": "C"
+                "correta": "C  ✔"
             },
             {
                 "questao": "Qual é a principal diferença entre o Arduino Uno e o Arduino Mega?",
@@ -406,7 +406,7 @@ perguntas = [
                     "D) O Uno possui Wi-Fi integrado",
                     "E) O Mega não possui portas analógicas"
                 ],
-                "correta": "A"
+                "correta": "A  ✔"
             },
             {
                 "questao": "Qual modelo de Arduino é mais indicado para projetos compactos?",
@@ -417,7 +417,7 @@ perguntas = [
                     "D) Arduino Uno",
                     "E) Arduino Leonardo"
                 ],
-                "correta": "C"
+                "correta": "C  ✔"
             },
             {
                 "questao": "Qual componente é considerado o 'cérebro' do Arduino?",
@@ -428,7 +428,7 @@ perguntas = [
                     "D) O regulador de tensão",
                     "E) O botão de reset"
                 ],
-                "correta": "B"
+                "correta": "B  ✔"
             },
             {
                 "questao": "O pino 'GND' em uma placa Arduino serve para:",
@@ -439,7 +439,7 @@ perguntas = [
                     "D) Enviar dados seriais",
                     "E) Controlar PWM"
                 ],
-                "correta": "C"
+                "correta": "C  ✔"
             },
             {
                 "questao": "Qual pino é usado para entradas analógicas no Arduino Uno?",
@@ -450,7 +450,7 @@ perguntas = [
                     "D) 8–13",
                     "E) 14–19"
                 ],
-                "correta": "B"
+                "correta": "B  ✔"
             },
             {
                 "questao": "O que significa PWM nos pinos digitais do Arduino?",
@@ -461,7 +461,7 @@ perguntas = [
                     "D) Gerar sinais seriais",
                     "E) Limitar corrente de entrada"
                 ],
-                "correta": "C"
+                "correta": "C  ✔"
             },
             {
                 "questao": "Qual função do Arduino é executada apenas uma vez ao iniciar o programa?",
@@ -472,7 +472,7 @@ perguntas = [
                     "D) begin()",
                     "E) main()"
                 ],
-                "correta": "B"
+                "correta": "B  ✔"
             },
             {
                 "questao": "O comando 'digitalRead(pino)' serve para:",
@@ -483,7 +483,7 @@ perguntas = [
                     "D) Enviar dados pela porta serial",
                     "E) Ligar o LED interno"
                 ],
-                "correta": "C"
+                "correta": "C  ✔"
             },
             {
              #   "questao": "Qual biblioteca é necessária para usar comunicação I2C?",
@@ -505,7 +505,7 @@ perguntas = [
                     "D) SPI.begin()",
                     "E) i2c.init()"
                 ],
-                "correta": "A"
+                "correta": "A  ✔"
             },
             {
            #     "questao": "Qual dispositivo é um exemplo de atuador?",
@@ -538,7 +538,7 @@ perguntas = [
                     "D) Wi-Fi",
                     "E) I2C"
                 ],
-                "correta": "C"
+                "correta": "C  ✔"
             },
             {
                 "questao": "Qual destes é um exemplo de boa prática ao ligar componentes ao Arduino?",
@@ -549,7 +549,7 @@ perguntas = [
                     "D) Alimentar o Arduino com 12V direto no pino 5V",
                     "E) Soldar os componentes direto na placa"
                 ],
-                "correta": "C"
+                "correta": "C  ✔"
             },
             {
                 "questao": "Qual é o risco de conectar sensores de 5V em placas de 3.3V sem adaptação?",
@@ -560,7 +560,7 @@ perguntas = [
                     "D) Nenhum, é compatível automaticamente",
                     "E) O sensor não enviará dados"
                 ],
-                "correta": "C"
+                "correta": "C  ✔"
             },
             {
                 "questao": "Um exemplo comum de aplicação prática do Arduino é:",
@@ -571,7 +571,7 @@ perguntas = [
                     "D) Criação de sistemas operacionais",
                     "E) Desenvolvimento de jogos AAA"
                 ],
-                "correta": "A"
+                "correta": "A  ✔"
             },
             {
                 "questao": "Qual comando é usado para limpar o monitor serial?",
@@ -582,7 +582,9 @@ perguntas = [
                     "D) Serial.clean()",
                     "E) Serial.stop()"
                 ],
-                "correta": "B"
+                "correta": "B  ✔"
+                
+                
             },
             {
                 "questao": "Qual destes sensores é usado para detectar luminosidade?",
@@ -593,7 +595,7 @@ perguntas = [
                     "D) MQ-7",
                     "E) DS18B20"
                 ],
-                "correta": "B"
+                "correta": "B  ✔"
             }
         ]
       
