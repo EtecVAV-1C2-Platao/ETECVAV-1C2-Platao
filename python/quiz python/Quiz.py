@@ -2,15 +2,12 @@ import random #pelo o que eu entendi, isso serve para sortear as paradas, não s
 
 def Mostrar_Regras():
     print("\n Regras \n")
-    print("1. O banco de perguntas deve ter no mínimo 50 questões.")
-    print("2. Cada questão é de múltipla escolha (A-E).")
-    print("3. Cada questão vale 1 ponto.")
-    print("4. A nota máxima é 50,0 pontos.")
-    print("5. As perguntas e alternativas são sorteadas obrigatoriamente.")
-    print("6. O código deve ser dividido em funções.")
-    print("7. O código deve conter comentários explicativos.")
-    print("8. O menu principal possui as opções: Responder, Regras e Encerrar.")
-    print("9. O banco de perguntas deve estar embutido no código.")
+    print("1. O quiz será composto por perguntas de múltipla escolha sobre Arduino.")
+    print("2. Cada questão é de múltipla escolha, tendo apenas uma correta (A-E).")
+    print("3. Cada questão vale 0,5 pontos.")
+    print("4. A nota máxima é 10,0 pontos.")
+    print("5. É proibido consultar material externo durante o quiz.")
+   
 
 def Mostrar_Informacoes():
     print("\n Informações do Quiz")
@@ -189,15 +186,15 @@ perguntas = [
                 "correta": "B  ✔"
             },
             {
-                "questao": "Qual destes sensores mede temperatura?",
-                "alternativas": [
-                    "A) LDR",
-                    "B) DHT11",
-                    "C) HC-SR04",
-                    "D) MPU6050",
-                    "E) MQ-2"
-                ],
-                "correta": "B  ✔"
+          #      "questao": "Qual destes sensores mede temperatura?",
+           #     "alternativas": [
+            #        "A) LDR",
+             #       "B) DHT11",
+              #      "C) HC-SR04",
+               #     "D) MPU6050",
+                #    "E) MQ-2"
+               # ],
+               # "correta": "B  ✔"
             },
             {
                 "questao": "Qual comando é usado para ler o valor de um sensor analógico?",
@@ -286,6 +283,17 @@ perguntas = [
                     "E) Bluetooth nativo"
                 ],
                 "correta": "D  ✔"
+            },
+            {
+                "questao": "Qual sensor é usado para medir distância?",
+                "alternativas": [
+                    "A) DHT11",
+                    "B) HC-SR04",
+                    "C) LDR",
+                    "D) BMP280",
+                    "E) MQ-135"
+                ],
+                "correta": "B  ✔"
             },
             {
                 "questao": "Qual protocolo é usado para comunicação sem fio com o módulo ESP8266?",
@@ -643,3 +651,7 @@ while True:
     else:
 
         print("Opção inválida. Tente novamente.")
+
+
+
+
