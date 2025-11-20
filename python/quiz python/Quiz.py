@@ -639,11 +639,16 @@ while True:
         pontuacao = 0
         
         for i, pergunta in enumerate(perguntas_sorteadas, 1):
-            print(f"\n--- Pergunta {i}/20 ---")
+            print("==========================")
+            print(f"||--- Pergunta {i}/20 ---||")
+            print("==========================")
             Exibir_pergunta(pergunta)
             resposta = input("Resposta: ").upper()
+
+
             if Verificar_Resposta(pergunta, resposta):
                 pontuacao += 0.5
+
         print("===============================================")
         print(f"||              FIM DO QUIZ                  ||")
         print("||===========================================||")
