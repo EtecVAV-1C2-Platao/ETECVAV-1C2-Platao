@@ -4,8 +4,8 @@ def Mostrar_Regras():
     print("\n Regras \n")
     print("1. O banco de perguntas deve ter no mínimo 50 questões.")
     print("2. Cada questão é de múltipla escolha (A-E).")
-    print("3. Cada questão vale 0,5 ponto.")
-    print("4. A nota máxima é 10,0 pontos.")
+    print("3. Cada questão vale 1 ponto.")
+    print("4. A nota máxima é 50,0 pontos.")
     print("5. As perguntas e alternativas são sorteadas obrigatoriamente.")
     print("6. O código deve ser dividido em funções.")
     print("7. O código deve conter comentários explicativos.")
@@ -639,4 +639,5 @@ while True:
         break
         
     else:
+
         print("Opção inválida. Tente novamente.")
