@@ -1,4 +1,4 @@
-import random #pelo o que eu entendi, isso serve para sortear as paradas, não sei se vamos ou não usar isso
+import random #biblioteca para sortear as questões
 
 def Mostrar_Regras():
     print("============================================================================"),
@@ -663,6 +663,8 @@ while True:
 
         print("Opção inválida. Tente novamente.")
 #as opções e caso ocorra resposta invalidas , o encerramento do programa
+
+
 
 
 
