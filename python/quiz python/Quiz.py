@@ -486,15 +486,15 @@ perguntas = [
                 "correta": "C  ✔"
             },
             {
-             #   "questao": "Qual biblioteca é necessária para usar comunicação I2C?",
-             #   "alternativas": [
-              #      "A) SPI.h",
-               #     "B) Servo.h",
-                #    "C) Wire.h",
-                 #   "D) WiFi.h",
-                  #  "E) Serial.h"
-               # ],
-                #"correta": "C"
+                "questao": "Qual biblioteca é necessária para usar comunicação I2C?",
+                "alternativas": [
+                    "A) SPI.h",
+                    "B) Servo.h",
+                    "C) Wire.h",
+                    "D) WiFi.h",
+                    "E) Serial.h"
+                 ],
+                "correta": "C"
             },
             {
                 "questao": "Qual função inicializa a comunicação I2C?",
@@ -552,15 +552,15 @@ perguntas = [
                 "correta": "C  ✔"
             },
             {
-                "questao": "Qual é o risco de conectar sensores de 5V em placas de 3.3V sem adaptação?",
-                "alternativas": [
-                    "A) A leitura ficará imprecisa",
-                    "B) O sensor pode funcionar em baixa tensão",
-                    "C) Pode danificar a placa controladora",
-                    "D) Nenhum, é compatível automaticamente",
-                    "E) O sensor não enviará dados"
-                ],
-                "correta": "C  ✔"
+             #   "questao": "Qual é o risco de conectar sensores de 5V em placas de 3.3V sem adaptação?",
+              #  "alternativas": [
+              #      "A) A leitura ficará imprecisa",
+               #     "B) O sensor pode funcionar em baixa tensão",
+                #    "C) Pode danificar a placa controladora",
+                 #   "D) Nenhum, é compatível automaticamente",
+                  #  "E) O sensor não enviará dados"
+              #  ],
+               # "correta": "C  ✔"
             },
             {
                 "questao": "Um exemplo comum de aplicação prática do Arduino é:",
@@ -600,14 +600,14 @@ perguntas = [
         ]
       
 while True:
-    print("\n============================")
-    print("        QUIZ ARDUINO        ")
-    print("============================")
-    print("[1] ▶ Iniciar Quiz")
-    print("[2] ▶ Regras")
-    print("[3] ▶ Informações")
-    print("[4] ▶ Sair")
-    print("============================")
+    print("===============================")
+    print("||        QUIZ ARDUINO     ||")
+    print("==============================")
+    print("|| [1] ▶ Iniciar Quiz      ||")
+    print("|| [2] ▶ Regras            ||")
+    print("|| [3] ▶ Informações       ||")
+    print("|| [4] ▶ Sair              ||")
+    print("==============================")
 
     opcao = input("Selecione uma opção: ")
     
