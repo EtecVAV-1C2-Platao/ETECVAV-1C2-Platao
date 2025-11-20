@@ -645,10 +645,10 @@ while True:
             if Verificar_Resposta(pergunta, resposta):
                 pontuacao += 0.5
         print("===============================================")
-        print("||              FIM DO QUIZ                  ||")
+        print(f"||              FIM DO QUIZ                  ||")
         print("||===========================================||")
-        print("||Sua pontuação final: {pontuacao}/10.0      ||")
-        print("================================================")
+        print(f"||Sua pontuação final: {pontuacao}/10.0              ||")
+        print("==============================================")
         #indica a pontuação a quatidade de pergunta e quanto vale cada
         R = input("Deseja continuar (S/N)?: ").upper()
         if R != "S":
