@@ -516,26 +516,26 @@ perguntas = [
                 "correta": "A  ✔"
             },
             {
-           #     "questao": "Qual dispositivo é um exemplo de atuador?",
-          #      "alternativas": [
-           #         "A) Sensor de temperatura",
-            #        "B) Sensor de luz LDR",
-             #       "C) Servo motor",
-              #      "D) Sensor ultrassônico",
-               #     "E) Módulo Wi-Fi"
-                #],
-                #"correta": "C"
+                "questao": "Qual dispositivo é um exemplo de atuador?",
+                "alternativas": [
+                    "A) Sensor de temperatura",
+                    "B) Sensor de luz LDR",
+                    "C) Servo motor",
+                    "D) Sensor ultrassônico",
+                    "E) Módulo Wi-Fi"
+                ],
+                "correta": "C"
             },
             {
-            #    "questao": "Qual é a função de um shield Ethernet?",
-            #    "alternativas": [
-             #       "A) Controlar motores",
-              #      "B) Conectar o Arduino à internet por cabo",
-               #     "C) Medir temperatura ambiente",
-                #    "D) Armazenar dados em cartão SD",
-                 #   "E) Aumentar a potência elétrica da placa"
-               # ],
-                #"correta": "B"
+                "questao": "Qual é a função de um shield Ethernet?",
+                "alternativas": [
+                    "A) Controlar motores",
+                    "B) Conectar o Arduino à internet por cabo",
+                    "C) Medir temperatura ambiente",
+                    "D) Armazenar dados em cartão SD",
+                    "E) Aumentar a potência elétrica da placa"
+                ],
+                "correta": "B"
             },
             {
                 "questao": "Qual destes modos de comunicação permite conectar o Arduino ao computador?",
@@ -651,6 +651,7 @@ while True:
     else:
 
         print("Opção inválida. Tente novamente.")
+
 
 
 
