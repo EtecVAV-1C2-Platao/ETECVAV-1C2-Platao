@@ -38,11 +38,15 @@ def Mostrar_Informacoes():
 def Sortear_perguntas(perguntas, quantidade=20):
     return random.sample(perguntas, quantidade)
 #sortea as pergunta , as retorna na quatidade definida 
+
+
 def Exibir_pergunta(pergunta):
     print("\n" + pergunta["questao"])
     for alternativa in pergunta["alternativas"]:
         print(alternativa)
 #exibe as perguntas e alternativas
+
+
 def Verificar_Resposta(pergunta, resposta):
     if resposta == pergunta["correta"]:
         print("✅ Acertouuu!\n")
@@ -51,6 +55,8 @@ def Verificar_Resposta(pergunta, resposta):
         print(f"❌ Errouuu! A resposta correta era: {pergunta['correta']}\n")
         return False
         #exibe uma menssagem caso as resposta esteja errada ou correta
+
+
 perguntas = [
             {
                 "questao": "Quem foi o principal inventor do Arduino?",
@@ -663,6 +669,7 @@ while True:
 
         print("Opção inválida. Tente novamente.")
 #as opções e caso ocorra resposta invalidas , o encerramento do programa
+
 
 
 
