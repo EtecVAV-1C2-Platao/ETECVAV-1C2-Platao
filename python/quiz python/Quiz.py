@@ -2,7 +2,6 @@ import random #pelo o que eu entendi, isso serve para sortear as paradas, não s
 
 def Mostrar_Regras():
     print("\n Regras \n")
-    print("\n Regras \n")
     print("1. O quiz será composto por perguntas de múltipla escolha sobre Arduino.")
     print("2. Cada questão é de múltipla escolha, tendo apenas uma correta (A-E).")
     print("3. Cada questão vale 0,5 pontos.")
@@ -641,4 +640,5 @@ while True:
     else:
 
         print("Opção inválida. Tente novamente.")
+
 
