@@ -28,25 +28,23 @@ def Mostrar_Informacoes():
     print("|| 9. Boas práticas e segurança elétrica                                           ||"),
     print("|| 10. Casos de uso e aplicações práticas                                          ||"),
     print("====================================================================================="),
-# Meio que isso é o texto das informações do jogo e o de cima é sobre as regras, eu não sei se tenho \n
-# que colocar as mesmas regras que o Ronildo postou no Teams, ou se tenho que rescrever elas. \n
-# Me avisem se solberem da resposta
+
 
 
 # Mostra as informações do quiz
-
+#sortea as pergunta , as retorna na quatidade definida
 def Sortear_perguntas(perguntas, quantidade=20):
     return random.sample(perguntas, quantidade)
-#sortea as pergunta , as retorna na quatidade definida 
+ 
 
-
+#exibe as perguntas e alternativas
 def Exibir_pergunta(pergunta):
     print("\n" + pergunta["questao"])
     for alternativa in pergunta["alternativas"]:
         print(alternativa)
-#exibe as perguntas e alternativas
 
 
+#exibe uma menssagem caso as resposta esteja errada ou correta
 def Verificar_Resposta(pergunta, resposta):
     if resposta == pergunta["correta"]:
         print("✅ Acertouuu!\n")
@@ -54,8 +52,7 @@ def Verificar_Resposta(pergunta, resposta):
     else:
         print(f"❌ Errouuu! A resposta correta era: {pergunta['correta']}\n")
         return False
-        #exibe uma menssagem caso as resposta esteja errada ou correta
-
+        
 
 perguntas = [
             {
@@ -669,6 +666,7 @@ while True:
 
         print("Opção inválida. Tente novamente.")
 #as opções e caso ocorra resposta invalidas , o encerramento do programa
+
 
 
 
