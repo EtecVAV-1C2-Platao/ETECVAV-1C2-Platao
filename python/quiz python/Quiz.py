@@ -1,27 +1,33 @@
 import random #pelo o que eu entendi, isso serve para sortear as paradas, não sei se vamos ou não usar isso
 
 def Mostrar_Regras():
-    print("\n Regras \n")
-    print("1. O quiz será composto por perguntas de múltipla escolha sobre Arduino.")
-    print("2. Cada questão é de múltipla escolha, tendo apenas uma correta (A-E).")
-    print("3. Cada questão vale 0,5 pontos.")
-    print("4. A nota máxima é 10,0 pontos.")
-    print("5. É proibido consultar material externo durante o quiz.")
+    print("============================================================================")
+    print("||           REGRAS                                                       ||")
+    print("||========================================================================||")
+    print("||1. O quiz será composto por perguntas de múltipla escolha sobre Arduino.||")
+    print("||2. Cada questão é de múltipla escolha, tendo apenas uma correta (A-E).  ||")
+    print("||3. Cada questão vale 0,5 pontos.                                        ||")
+    print("||4. A nota máxima é 10,0 pontos.                                         ||")
+    print("||5. É proibido consultar material externo durante o quiz.                ||")
+    print("============================================================================")
    
 
 def Mostrar_Informacoes():
-    print("\n Informações do Quiz")
-    print("""Este é um Quiz com o tema centrado no Arduino, abrangendo os seguintes tópicos:
-    1. Histórico e origem do projeto
-    2. Modelos e famílias de placas (Uno, Mega, Nano, etc.)
-    3. Componentes e arquitetura básica
-    4. Conexões, portas e sinais (digitais, analógicos, PWM)
-    5. Estrutura de código (setup, loop, funções, bibliotecas)
-    6. Principais comandos e funções da IDE Arduino
-    7. Sensores, atuadores e shields
-    8. Comunicações: Serial, I2C, SPI, Bluetooth, Wi-Fi
-    9. Boas práticas e segurança elétrica
-    10. Casos de uso e aplicações práticas\n""") 
+    print("=====================================================================================")
+    print("||           INFORMAÇÕES                                                           ||")
+    print("||=================================================================================||")
+    print("||Este é um Quiz com o tema centrado no Arduino, abrangendo os seguintes tópicos:  ||")
+    print("|| 1. Histórico e origem do projeto                                                ||")
+    print("|| 2. Modelos e famílias de placas (Uno, Mega, Nano, etc.)                         ||")
+    print("|| 3. Componentes e arquitetura básica                                             ||")
+    print("|| 4. Conexões, portas e sinais (digitais, analógicos, PWM)                        ||")
+    print("|| 5. Estrutura de código (setup, loop, funções, bibliotecas)                      ||")
+    print("|| 6. Principais comandos e funções da IDE Arduino                                 ||")
+    print("|| 7. Sensores, atuadores e shields                                                ||")
+    print("|| 8. Comunicações: Serial, I2C, SPI, Bluetooth, Wi-Fi                             ||")
+    print("|| 9. Boas práticas e segurança elétrica                                           ||")
+    print("|| 10. Casos de uso e aplicações práticas                                          ||")
+    print("=====================================================================================") 
 # Meio que isso é o texto das informações do jogo e o de cima é sobre as regras, eu não sei se tenho \n
 # que colocar as mesmas regras que o Ronildo postou no Teams, ou se tenho que rescrever elas. \n
 # Me avisem se solberem da resposta
@@ -609,14 +615,14 @@ perguntas = [
         ]
       
 while True:
-    print("===============================")
+    print("=============================")
     print("||        QUIZ ARDUINO     ||")
-    print("==============================")
+    print("=============================")
     print("|| [1] ▶ Iniciar Quiz      ||")
     print("|| [2] ▶ Regras            ||")
     print("|| [3] ▶ Informações       ||")
     print("|| [4] ▶ Sair              ||")
-    print("==============================")
+    print("=============================")
 
     opcao = input("Selecione uma opção: ")
     
