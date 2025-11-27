@@ -6,6 +6,6 @@ Luan de Souza Dos Santos: Funções, lógica do programa e auxiliação no desen
 
 Miguel Leal Pereira: Estruturação do código e desenvolvimento das perguntas.
 
-Nathan Luiz de Paula Ferreira: Nada.
+Nathan Luiz de Paula Ferreira: Revisão.
 
 Paulo César Simões: Desenvolvimento das perguntas e dentação do programa.
