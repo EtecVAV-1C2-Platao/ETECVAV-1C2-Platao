@@ -11,7 +11,6 @@ def Mostrar_Regras():
     print("||5. É proibido consultar material externo durante o quiz.                ||"),
     print("============================================================================"),
    
-
 def Mostrar_Informacoes():
     print("====================================================================================="),
     print("||           INFORMAÇÕES                                                           ||"),
@@ -28,21 +27,17 @@ def Mostrar_Informacoes():
     print("|| 9. Boas práticas e segurança elétrica                                           ||"),
     print("|| 10. Casos de uso e aplicações práticas                                          ||"),
     print("====================================================================================="),
-
-
-
 # Mostra as informações do quiz
+
 #sortea as pergunta , as retorna na quatidade definida
 def Sortear_perguntas(perguntas, quantidade=20):
     return random.sample(perguntas, quantidade)
- 
 
 #exibe as perguntas e alternativas
 def Exibir_pergunta(pergunta):
     print("\n" + pergunta["questao"])
     for alternativa in pergunta["alternativas"]:
         print(alternativa)
-
 
 #exibe uma menssagem caso as resposta esteja errada ou correta
 def Verificar_Resposta(pergunta, resposta):
@@ -633,6 +628,7 @@ while True:
 
     opcao = input("Selecione uma opção: ")
     #interface melhorada para o quiz com titulo e as opções
+    
     if opcao == "1":
         print("\nIniciando Quiz...")
         perguntas_sorteadas = Sortear_perguntas(perguntas, 20)
@@ -645,7 +641,6 @@ while True:
             Exibir_pergunta(pergunta)
             resposta = input("Resposta: ").upper()
 
-
             if Verificar_Resposta(pergunta, resposta):
                 pontuacao += 0.5
 
@@ -655,6 +650,7 @@ while True:
         print(f"||Sua pontuação final: {pontuacao}/10.0              ||")
         print("==============================================")
         #indica a pontuação a quatidade de pergunta e quanto vale cada
+        
         R = input("Deseja continuar (S/N)?: ").upper()
         if R != "S":
             break
@@ -673,14 +669,3 @@ while True:
 
         print("Opção inválida. Tente novamente.")
 #as opções e caso ocorra resposta invalidas , o encerramento do programa
-
-
-
-
-
-
-
-
-
-
-
