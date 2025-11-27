@@ -1,10 +1,10 @@
 O trabalho (Quiz_arduino) foi feito por:
-Daniel Mizael de Mesquita Ferreira: auxiliação no código geral e na documentação do código\n
+Daniel Mizael de Mesquita Ferreira: Auxiliação no código geral e na documentação do código
 
-Luan de Souza Dos Santos: funções, lógica do programa e auxiliação no desenvolvimento do código.\n
+Luan de Souza Dos Santos: Funções, lógica do programa e auxiliação no desenvolvimento do código.
 
-Miguel Leal Pereira: estruturação do código e desenvolvimento das perguntas.\n
+Miguel Leal Pereira: Estruturação do código e desenvolvimento das perguntas.
 
-Nathan Luiz de Paula Ferreira: nada.\n
+Nathan Luiz de Paula Ferreira: Nada.
 
-Paulo César Simões: desenvolvimento das perguntas e dentação do programa.\n
+Paulo César Simões: Desenvolvimento das perguntas e dentação do programa.
